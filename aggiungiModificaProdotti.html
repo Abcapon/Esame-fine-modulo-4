@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifica/Aggiunta Prodotti</title>
+    <link rel="stylesheet" href="Boostrap/bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" id="logo" href="#"><img src="Logo2.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SAFET YLAWS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT US</a>
+          </li>
+         
+          
+        </ul>
+       
+        <div id="socialLogos" class="d-flex">
+          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="facebook"></a>
+          <a href="#"><img src="https://www.pinclipart.com/picdir/middle/84-840056_ketchup-and-mustard-clipart.png" alt="istagram"></a>
+      </div>
+      
+      </div>
+    </div>
+  </nav>
+    
+  <header class="text-center">
+    <h2>
+    PROTECT YOURSELF WITH SECURE SELF <br>
+    </h2>
+    <h2 class="fst-italic">
+    Because we care about your safety!
+    </h2>
+  </header>
+
+
+<div class="container m-4">
+  <h2 id="pageTitle"></h2>
+
+    <form id="product-form" novalidate>
+
+        <input type="hidden" id="product-id">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+          <span class="text-danger" id="name-error"></span>
+        </div>
+
+        <div class="mb-3">
+          <label for="description" class="form-label">Description</label>
+          <input type="text" class="form-control" id="description" required>
+          <span class="text-danger" id="description-error"></span>
+        </div>
+
+        <div class="mb-3">
+          <label for="brand" class="form-label">Brand</label>
+          <input type="text" class="form-control" id="brand" required>
+          <span class="text-danger" id="brand-error"></span>
+        </div>
+
+        <div class="mb-3">
+          <label for="image" class="form-label">Url image</label>
+          <input type="text" class="form-control" id="image" required>
+          <span class="text-danger" id="image-error"></span>
+        </div>
+
+        <div class="mb-3">
+          <label for="price" class="form-label">Price</label>
+          <input type="text" class="form-control" id="price" required>
+          <span class="text-danger" id="price-error"></span>
+        </div>
+    
+
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button type="button" class="btn btn-outline-success" onclick="goBack()">Go Back</button>
+
+      </form>
+</div>
+
+<footer class="bg-dark text-white text-center py-3">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-4">
+        <p>Adress: <br> 11 Victoria Street <br> London</p>
+      </div>
+      <div class="col-4">
+        <p>Join our community</p>
+        <button type="button" class="btn btn-outline-success">Sign up</button>
+      </div>
+      <div class="col-4">
+        <p>Contact us: <br> email secureself@gmail.com <br> phone 123456789</p>
+      </div>
+  </div>
+  </div>
+  <p class="mt-4">&copy; 2023 SecureSelf</p>
+</footer>
+
+
+
+
+
+    <script src="Boostrap/bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.bundle.js"></script>
+    <script src="modifica.js"></script>
+</body>
+</html>

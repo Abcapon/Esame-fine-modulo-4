@@ -1,0 +1,58 @@
+
+#logo {
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+}
+header{
+  padding: 1em 0;
+  background: rgb(37,45,36);
+  background: linear-gradient(90deg, #2B3035 0%, rgba(35,255,0,1) 50%, #2B3035 100%);
+}
+header :nth-child(2){
+  font-size: 1.5em;
+}
+main .text-center button{
+  margin: 1em;
+}
+#brand {
+  padding: 0.5em 0;
+}
+#price {
+  padding: 0.5em 0;
+}
+
+  img {
+    width: 100%;
+  }
+
+  #fotoProdotto {
+    object-fit: cover;
+  }
+#socialLogos img{
+  margin: 1em;
+  height: 3em;
+  width: 3em;
+  border-radius: 10px;
+}
+
+#productCode{
+  font-size: 0.5em;
+}
+#productId{
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+#brandProdotto{
+  font-style: italic;
+}
+
+
+#descriptionContainer{
+  padding: 3em;
+  border: 3px solid rgba(35,255,0,1);
+}
+
+#descrizioneProdotto{
+  font-size: 1.2em;
+}
